@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Angular 2 Component</title>
+    <style>@import "css/style.css";</style>
+    <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
+    <script src="https://jspm.io/system@0.16.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.25/angular2.dev.js"></script>
+</head>
+<body>
+<hello></hello>
+<native-hello></native-hello>
+    <script>
+        System.import('main');
+    </script>
+    <script type="text/javascript">
+        var nativeHello = document.querySelector('native-hello');
+        nativeHello.createShadowRoot();
+        nativeHello.shadowRoot.innerHTML = `
+<h1>Native Shadow DOM</h1>
+<div>
+<input></input>
+<button>Click Me</button>	
+</div>`;
+    </script>
+</body>
+</html>

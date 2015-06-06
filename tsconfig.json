@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "module": "amd",
+        "target": "es5",
+        "outDir": "../HelloAngular2TypeScript"
+    },
+    "files": [
+        "ts/hello.ts",
+        "ts/messageservice.ts",
+        "ts/main.ts",
+        "typings/tsd.d.ts"
+    ]
+}
