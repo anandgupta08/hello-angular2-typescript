@@ -3,7 +3,7 @@
         "emitDecoratorMetadata": true,
         "module": "amd",
         "target": "es5",
-        "outDir": "../HelloAngular2TypeScript"
+        "outDir": "../hello-angular2-typescript"
     },
     "files": [
         "ts/hello.ts",
