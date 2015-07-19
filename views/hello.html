@@ -1,7 +1,7 @@
 <h1>{{message}}</h1>
 <div>
 <input #newmessage type="text" (keyup)="doneTyping($event)"></input>
-<button (click)="changeMessage(newmessage.value, $event)">Click Me</button>
+<button (click)="changeMessage(newmessage.value)">Click Me</button>
 <p>{{newmessage.value}}</p>
 <div *ng-if="newmessage.value == 'Friend'">Welcome {{newmessage.value}} </div>
 </div>
