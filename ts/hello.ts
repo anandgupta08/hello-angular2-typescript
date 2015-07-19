@@ -1,12 +1,11 @@
 /// <reference path="../typings/angular2/angular2.d.ts" />
 
-import {bootstrap, Component, View, NgIf} from "angular2/angular2";
-import {bind} from "angular2/di";
+import {bootstrap, Component, View, NgIf, Inject} from "angular2/angular2";
 import {MessageProvider} from "messageservice";
 
 @Component({
 	selector : "hello",
-	appInjector : [MessageProvider]
+	viewInjector : [MessageProvider]
 	})
 @View({
 	templateUrl : "./views/hello.html",

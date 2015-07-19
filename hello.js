@@ -29,7 +29,7 @@ define(["require", "exports", "angular2/angular2", "messageservice"], function (
         Hello = __decorate([
             angular2_1.Component({
                 selector: "hello",
-                appInjector: [messageservice_1.MessageProvider]
+                viewInjector: [messageservice_1.MessageProvider]
             }),
             angular2_1.View({
                 templateUrl: "./views/hello.html",
