@@ -1,0 +1,11 @@
+{
+  "name": "hello-angular2-typescript",
+  "description": "This project shows the Angluar2 Component and native Web Component",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-typescript": "^0.6.2"
+  }
+}

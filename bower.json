@@ -1,0 +1,32 @@
+{
+  "name": "hello-angular2-typescript",
+  "version": "0.1.0",
+  "homepage": "https://github.com/anandgupta08/hello-angular2-typescript",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "amd"
+  ],
+  "authors": [
+    "Anand Gupta"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur-runtime": "*"
+  },
+  "exportsOverride": {
+    "traceur-runtime" :{
+      "" : "*.{js, min.js}"
+    }
+  }
+}
