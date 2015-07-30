@@ -1,3 +1,6 @@
+
+<input type="range" #sizehandler (input) min="0" max="50" value="20" />
+<h1 [style.font-size]="sizehandler.value + 'px'" >Hello</h1>
 <h1>{{message}}</h1>
 <div>
 <input #newmessage type="text" (keyup)="doneTyping($event)"></input>
